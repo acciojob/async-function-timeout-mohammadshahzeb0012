@@ -16,7 +16,7 @@ btn.addEventListener("click",()=>{
   const asyncHandler =  ( async ()=>{
     try{
       const result = await  promise1;
-      output.innerText = `${result}`
+      output.innerText = result 
       return
     }
     catch(err){
